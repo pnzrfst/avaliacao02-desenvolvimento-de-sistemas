@@ -3,3 +3,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+.bodyContainer{
+    border: 1px solid;
+    height: 100vh;
+    width: 100vw;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    gap: 1rem;
+    border: 1px solid red;
+    padding: 3rem;
+    align-items: center;
+}
+
+.headerContainer input{
+    display: flex;
+    border: none;
+    flex: 1;
+    background-color: lightblue;
+    padding: 0.4rem;
+}
+
+.headerContainer button{
+    display: flex;
+    padding: 0.3rem;
+    border: none;
+    font-size: large;
+
+}
+
+
+.listProducts{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    margin-top: 2rem;
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+}
+
+.listProducts ul{
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
